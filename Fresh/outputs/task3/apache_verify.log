@@ -1,0 +1,4 @@
+Backup file: /backups/apache_backup_2026-03-21.tar.gz
+etc/httpd/
+var/www/html/
+var/www/html/index.html

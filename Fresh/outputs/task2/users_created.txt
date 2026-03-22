@@ -1,0 +1,2 @@
+Sarah:x:1001:1001::/home/Sarah:/bin/bash
+mike:x:1002:1002::/home/mike:/bin/bash

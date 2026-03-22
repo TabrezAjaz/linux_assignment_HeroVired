@@ -1,0 +1,23 @@
+Backup file: /backups/nginx_backup_2026-03-21.tar.gz
+etc/nginx/
+etc/nginx/fastcgi.conf.dpkg-new
+etc/nginx/modules-available/
+etc/nginx/koi-utf.dpkg-new
+etc/nginx/sites-enabled/
+etc/nginx/sites-available/
+etc/nginx/sites-available/default.dpkg-new
+etc/nginx/koi-win.dpkg-new
+etc/nginx/modules-enabled/
+etc/nginx/fastcgi_params.dpkg-new
+etc/nginx/scgi_params.dpkg-new
+etc/nginx/snippets/
+etc/nginx/snippets/fastcgi-php.conf.dpkg-new
+etc/nginx/snippets/snakeoil.conf.dpkg-new
+etc/nginx/conf.d/
+etc/nginx/mime.types.dpkg-new
+etc/nginx/uwsgi_params.dpkg-new
+etc/nginx/win-utf.dpkg-new
+etc/nginx/nginx.conf.dpkg-new
+etc/nginx/proxy_params.dpkg-new
+usr/share/nginx/html/
+usr/share/nginx/html/index.html

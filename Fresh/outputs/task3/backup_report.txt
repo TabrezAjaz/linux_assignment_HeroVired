@@ -1,0 +1,41 @@
+===== BACKUPS =====
+total 24K
+-rw-r--r-- 1 root backupops  613 Mar 21 23:58 apache_backup_2026-03-21.tar.gz
+-rw-r--r-- 1 root backupops  613 Mar 22 00:22 apache_backup_2026-03-22.tar.gz
+-rw-r--r-- 1 root backupops 7.1K Mar 21 23:58 nginx_backup_2026-03-21.tar.gz
+-rw-r--r-- 1 root backupops 7.1K Mar 22 00:22 nginx_backup_2026-03-22.tar.gz
+===== CRON SARAH =====
+0 0 * * 2 /usr/local/bin/backup_apache.sh >> /var/log/devops-assignment/apache_backup_cron.log 2>&1
+0 0 * * 2 /usr/local/bin/backup_apache.sh >> /var/log/devops-assignment/apache_backup_cron.log 2>&1
+===== CRON MIKE =====
+0 0 * * 2 /usr/local/bin/backup_nginx.sh >> /var/log/devops-assignment/nginx_backup_cron.log 2>&1
+0 0 * * 2 /usr/local/bin/backup_nginx.sh >> /var/log/devops-assignment/nginx_backup_cron.log 2>&1
+===== APACHE VERIFY =====
+Backup file: /backups/apache_backup_2026-03-21.tar.gz
+etc/httpd/
+var/www/html/
+var/www/html/index.html
+===== NGINX VERIFY =====
+Backup file: /backups/nginx_backup_2026-03-21.tar.gz
+etc/nginx/
+etc/nginx/fastcgi.conf.dpkg-new
+etc/nginx/modules-available/
+etc/nginx/koi-utf.dpkg-new
+etc/nginx/sites-enabled/
+etc/nginx/sites-available/
+etc/nginx/sites-available/default.dpkg-new
+etc/nginx/koi-win.dpkg-new
+etc/nginx/modules-enabled/
+etc/nginx/fastcgi_params.dpkg-new
+etc/nginx/scgi_params.dpkg-new
+etc/nginx/snippets/
+etc/nginx/snippets/fastcgi-php.conf.dpkg-new
+etc/nginx/snippets/snakeoil.conf.dpkg-new
+etc/nginx/conf.d/
+etc/nginx/mime.types.dpkg-new
+etc/nginx/uwsgi_params.dpkg-new
+etc/nginx/win-utf.dpkg-new
+etc/nginx/nginx.conf.dpkg-new
+etc/nginx/proxy_params.dpkg-new
+usr/share/nginx/html/
+usr/share/nginx/html/index.html

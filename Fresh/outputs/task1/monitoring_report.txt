@@ -1,0 +1,60 @@
+===== ENV =====
+Linux tabrez 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+===== DF =====
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.7G     0  7.7G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            7.7G  4.0K  7.7G   1% /mnt/wsl
+drivers         483G  437G   47G  91% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.7G  954G   1% /
+none            7.7G   76K  7.7G   1% /mnt/wslg
+none            7.7G     0  7.7G   0% /usr/lib/wsl/lib
+rootfs          7.7G  2.7M  7.7G   1% /init
+none            7.7G  520K  7.7G   1% /run
+none            7.7G     0  7.7G   0% /run/lock
+none            7.7G     0  7.7G   0% /run/shm
+none            7.7G   76K  7.7G   1% /mnt/wslg/versions.txt
+none            7.7G   76K  7.7G   1% /mnt/wslg/doc
+C:\             483G  437G   47G  91% /mnt/c
+D:\             293G  148G  146G  51% /mnt/d
+E:\             176G   69G  108G  39% /mnt/e
+tmpfs           1.6G   20K  1.6G   1% /run/user/1000
+===== DU =====
+20K	/home/Sarah
+20K	/home/mike
+20K	/home/tabre
+===== TOP CPU =====
+    PID USER     COMMAND         %CPU %MEM
+      1 root     systemd          0.3  0.0
+    100 root     systemd-udevd    0.1  0.0
+     47 root     systemd-journal  0.0  0.0
+    163 message+ dbus-daemon      0.0  0.0
+    170 root     systemd-logind   0.0  0.0
+    192 syslog   rsyslogd         0.0  0.0
+   1416 www-data htcacheclean     0.0  0.0
+    342 tabre    systemd          0.0  0.0
+    110 systemd+ systemd-timesyn  0.0  0.0
+    292 tabre    bash             0.0  0.0
+      2 root     init-systemd(Ub  0.0  0.0
+    596 polkitd  polkitd          0.0  0.0
+    210 root     unattended-upgr  0.0  0.1
+    109 systemd+ systemd-resolve  0.0  0.0
+===== TOP MEM =====
+    PID USER     COMMAND         %CPU %MEM
+    210 root     unattended-upgr  0.0  0.1
+     47 root     systemd-journal  0.0  0.0
+      1 root     systemd          0.2  0.0
+    109 systemd+ systemd-resolve  0.0  0.0
+    342 tabre    systemd          0.0  0.0
+    170 root     systemd-logind   0.0  0.0
+    110 systemd+ systemd-timesyn  0.0  0.0
+    596 polkitd  polkitd          0.0  0.0
+    981 root     nginx            0.0  0.0
+    100 root     systemd-udevd    0.1  0.0
+    192 syslog   rsyslogd         0.0  0.0
+    292 tabre    bash             0.0  0.0
+    362 tabre    bash             0.0  0.0
+    163 message+ dbus-daemon      0.0  0.0

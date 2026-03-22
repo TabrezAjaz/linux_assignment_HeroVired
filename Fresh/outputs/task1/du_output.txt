@@ -1,0 +1,3 @@
+20K	/home/Sarah
+20K	/home/mike
+20K	/home/tabre

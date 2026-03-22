@@ -1,0 +1,15 @@
+    PID USER     COMMAND         %CPU %MEM
+      1 root     systemd          0.3  0.0
+    100 root     systemd-udevd    0.1  0.0
+     47 root     systemd-journal  0.0  0.0
+    163 message+ dbus-daemon      0.0  0.0
+    170 root     systemd-logind   0.0  0.0
+    192 syslog   rsyslogd         0.0  0.0
+   1416 www-data htcacheclean     0.0  0.0
+    342 tabre    systemd          0.0  0.0
+    110 systemd+ systemd-timesyn  0.0  0.0
+    292 tabre    bash             0.0  0.0
+      2 root     init-systemd(Ub  0.0  0.0
+    596 polkitd  polkitd          0.0  0.0
+    210 root     unattended-upgr  0.0  0.1
+    109 systemd+ systemd-resolve  0.0  0.0

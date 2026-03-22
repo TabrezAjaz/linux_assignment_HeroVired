@@ -1,0 +1,25 @@
+===== USERS =====
+Sarah:x:1001:1001::/home/Sarah:/bin/bash
+mike:x:1002:1002::/home/mike:/bin/bash
+===== PERMISSIONS =====
+drwx------ 2 Sarah Sarah 4096 Mar 21 20:25 /home/Sarah/workspace
+drwx------ 2 mike  mike  4096 Mar 21 20:25 /home/mike/workspace
+===== CHAGE SARAH =====
+Last password change					: Mar 21, 2026
+Password expires					: Apr 20, 2026
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+===== CHAGE MIKE =====
+Last password change					: Mar 21, 2026
+Password expires					: Apr 20, 2026
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 30
+Number of days of warning before password expires	: 7
+===== PWQUALITY =====
+minlen = 12
+minclass = 3
